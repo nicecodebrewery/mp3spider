@@ -95,5 +95,4 @@ MIT License — feel free to use and contribute!
 
 ## 🙌 Credits
 
-Built by Vijay Satheesh
-Made with 🧠 C++ and ❤️ for open-source audio tools.
+Built by Vijay Satheesh. Made with 🧠 C++ and ❤️ for open-source audio tools.
