@@ -1,9 +1,9 @@
-CC=gcc
-CFLAGS = -Wall -Wextra
+CC=g++
+CFLAGS = 
 EXEC=run
-MAIN=src/main.c
+MAIN=src/main.cpp
 
-main:src/main.c
+main:$(MAIN)
 	$(CC) $? $(CFLAGS) -o build/$(EXEC) 
 
 run:
