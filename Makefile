@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS = -std=c++11
-EXEC=run
+EXEC=mp3spider
 MAIN=src/main.cpp
 
 main:$(MAIN)
@@ -11,3 +11,9 @@ run:
 
 clear:
 	rm build/* 
+
+uninstall:
+	sudo rm -f /usr/local/bin/mp3spider
+
+install:
+	sudo cp build/$(EXEC) /usr/local/bin/mp3spider
